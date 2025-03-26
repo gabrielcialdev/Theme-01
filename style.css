@@ -1,0 +1,271 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: static;
+}
+
+div {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+/* MENU */
+.menu {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 15px auto;
+    padding: 10px 0;
+    width: 90%;
+    height: auto;
+    display: flex;
+    position: fixed;
+    left: 25px;
+    right: 25px;
+}
+
+.menu #logo {
+    background-color: transparent;
+    border: 1px solid #ffffff;   
+    margin: 0 0;
+}
+
+.menu #list {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    margin: 0 auto;
+    width: 30%;
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu #list ul {
+    margin: 15px 0px;
+    padding: 0px 0px;   
+}
+
+.menu #list li {
+    display: inline;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    
+}
+
+.menu #list li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 0px 0px;
+}
+
+/* SECTION 0 */
+.section0 {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 85%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SECTION 1 */
+.section1 {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    padding: 0 0;
+    width: 85%;
+    height: 500px;
+    display: flex;
+}
+
+.containerA {
+    border: 1px solid green;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.containerB {
+    border: 1px solid green;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+/* SECTION 2 */
+.section2 {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    padding: 0 0;
+    width: 85%;
+    height: 500px;
+    display: flex;
+}
+
+.containerC {
+    border: 1px solid green;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.containerD {
+    border: 1px solid green;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px;
+    width: 100%;
+    height: auto;
+}
+
+/* SECTION 3 */
+.section3 {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    padding: 0 0;
+    width: 85%;
+    height: 500px;
+    display: block;
+}
+
+.containerE {
+    border: 1px solid green;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px;
+    width: auto;
+    height: auto;
+}
+
+.containerF {
+    border: 1px solid green;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px;
+    width: auto;
+    height: auto;
+}
+
+/* SECTION 4 */
+.section4 {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    padding: 0 0;
+    width: 85%;
+    height: 500px;
+    display: flex;
+}
+
+.containerG {
+    border: 1px solid green;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.containerH {
+    border: 1px solid green;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px;
+    width: 100%;
+    height: auto;
+}
+
+/* SECTION 5 */
+.section5 {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    padding: 0 0;
+    width: 85%;
+    height: 500px;
+    display: flex;
+}
+
+.containerI {
+    border: 1px solid green;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px;
+    width: 100%;
+    height: auto;
+}
+
+.containerJ {
+    border: 1px solid green;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px;
+    width: 100%;
+    height: auto;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 0 0;
+    width: 90%;
+    height: 300px;
+    display: flex;
+}
+
+.containerF1 {
+    border: 1px solid green;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px;
+    width: auto;
+    height: auto;
+}
+
+.containerF2 {
+    border: 1px solid green;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px;
+    width: auto;
+    height: auto;
+}
+
+.containerF3 {
+    border: 1px solid green;
+    margin: 10px 10px 10px 10px;
+    padding: 0px 0px;
+    width: auto;
+    height: auto;
+}
+
+/* COPYRIGHT */
+.copyright {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #000000;
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+    padding: 0px 0px;
+}
+
+.copyright p {
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px 10px;
+}
